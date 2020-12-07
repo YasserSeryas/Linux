@@ -65,3 +65,27 @@ For($i=0;$i -lt $langages.Length;$i++)
 }
 
 ```
+Ensuite 
+
+![capture7](https://github.com/YasserSeryas/Linux/blob/main/Powershell%20capture/Capture%207.PNG)
+
+* Boucle "For" à conditions multiple
+
+Au sein d'une boucle "For", on utilise généralement la variable $i pour gérer l'initialisation et l'incrémentation. Si besoin, on peut utiliser deux conditions afin de créer une boucle For à conditions multiple. Pour cet exemple, nous prendrons $i et $j. Je mets en jaune les évolutions au niveau de la syntaxe par rapport à une boucle sur une seule condition.
+
+exemple 
+
+```
+
+$valeur = 0..10
+For(($i = 0), ($j = 0); $i -lt 10 -and $j -lt 10; $i++,$j++)
+{
+   Write-Output "Les valeurs sont : i = $($valeur[$i]) - j = $($valeur[$j])"
+}
+
+``` 
+
+ce qui va donner 
+
+![capture8](https://github.com/YasserSeryas/Linux/blob/main/Powershell%20capture/Capture8.PNG)
+
