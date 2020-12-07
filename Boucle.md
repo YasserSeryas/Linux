@@ -1,0 +1,49 @@
+# Une Boucle 
+
+## Une boucle "For" qu'est ce que c'est ?
+
+La boucle "For" est un grand classique des différents langages de scripting et de programmation. Dans cet article, je vous propose de vous familiariser avec les boucles "For" en PowerShell.
+
+L'objectif d'une boucle "For" est d'exécuter X fois un bloc d'instructions, où le nombre d'exécution de l'état de la condition testée.
+
+## Comment fonctionne une boucle For 
+
+En PowerShell, la boucle "For" s'appuie sur la syntaxe suivante : 
+
+```  
+
+
+For(<état initial>;<condition de répétition>;<incrémentation>)
+{
+  <Si la condition est vraie, on exécute ce bloc d'instructions>
+}
+
+<Si la condition est fausse, la boucle for se termine et le script continue...> 
+
+
+```
+
+Lorsque l'on utilise une boucle for, on suit la logique suivante : on indique une valeur de départ (état initial), une valeur cible dans la condition de répétition (par exemple la valeur 10) et on incrémente la valeur à chaque tour de boucle (à chaque itération) : on peut incrémenter de 1, de 2, de 10, etc... au choix.
+
+## Quelques exemples 
+
+* Boucle **For** de base 
+
+On peut se dire que l'on part de la valeur "1", et que, tant que la valeur est inférieure à 10, on exécute le bloc d'instruction de la boucle "For", en augmentant de +1 à chaque itération.
+
+Ce qui donne :
+
+``` 
+$valeur = 0..10
+For($i=0;$i -lt 10;$i++) 
+{ 
+   Write-Output "La valeur est $($valeur[$i])" 
+} 
+
+``` 
+Ce qui va donner le résultat suivant 
+
+![capture6](https://github.com/YasserSeryas/Linux/blob/main/Powershell%20capture/Capture%206.PNG)
+
+Petite remarque : Affecter la valeur "0..10" à une variable sert à créer un tableau de valeurs, de 0 à 10.  
+
