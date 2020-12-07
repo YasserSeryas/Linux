@@ -27,7 +27,7 @@ Lorsque l'on utilise une boucle for, on suit la logique suivante : on indique un
 
 ## Quelques exemples 
 
-* Boucle **For** de base 
+* Boucle "For" de base 
 
 On peut se dire que l'on part de la valeur "1", et que, tant que la valeur est inférieure à 10, on exécute le bloc d'instruction de la boucle "For", en augmentant de +1 à chaque itération.
 
@@ -47,3 +47,21 @@ Ce qui va donner le résultat suivant
 
 Petite remarque : Affecter la valeur "0..10" à une variable sert à créer un tableau de valeurs, de 0 à 10.  
 
+* Boucle "For" basée sur un nombre d'éléments
+
+Imaginons que l'on ait un tableau de chaînes de caractères (string) et que l'on souhaite exécuter une action sur chaque valeur du tableau, sans connaître à l'avance le nombre d'éléments du tableau, on peut s'appuyer sur la propriété Length.
+
+On va définir la variable $langages et lui attribuer des valeurs (cela pourrait être dynamique). Grâce à $langages.Length, nous allons pouvoir faire une boucle qui traite l'ensemble des éléments du tableau. C'est ce que l'on fait habituellement (et plus simplement) avec une boucle ForEach mais on peut le faire aussi avec une simple boucle For, d'où cet exemple.
+
+Ce qui donne :
+
+```
+
+$langages = @("PowerShell","Python","PHP","JavaScript","C-Sharp")
+
+For($i=0;$i -lt $langages.Length;$i++) 
+{ 
+   Write-Output "Le meilleur langage de programmation est $($langages[$i])"
+}
+
+```
