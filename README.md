@@ -7,4 +7,6 @@ Ceci est un cours sur le PowerShell
 
 2.[Qu'est ce que le **PowerShell**](https://github.com/YasserSeryas/Linux/blob/main/PowerShell1.md)
 
-3.[Lignes de commandes](https://github.com/YasserSeryas/Linux/blob/main/LigneDeCommande.md)
+3.[Lignes de commandes et exemples de scripts](https://github.com/YasserSeryas/Linux/blob/main/LigneDeCommande.md)
+
+4.[Les boucles](https://github.com/YasserSeryas/Linux/blob/main/Boucle.md)
