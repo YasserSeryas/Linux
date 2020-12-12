@@ -89,3 +89,23 @@ ce qui va donner
 
 ![capture8](https://github.com/YasserSeryas/Linux/blob/main/Powershell%20capture/Capture8.PNG)
 
+Si l'on reprend les deux précédents exemples, avec la valeur de 1 à 10 et le tableau de langages, cela donne :
+
+```
+$valeur = 0..10
+$langages = @("PowerShell","Python","PHP","JavaScript","C-Sharp")
+
+For(($i = 0), ($j = 0); $i -lt 10 -and $j -lt $langages.Length; $i++,$j++)
+{
+  Write-Output "$($valeur[$i]) - $($langages[$i])"
+}
+
+```
+
+Dès que l'on arrive à la fin du tableau $langages, on sort de la boucle "For" car il faut que $i soit inférieur à 10 ce qui est toujours le cas ET que $j soit inférieur à la longueur du tableau, ce qui n'est plus le cas car nous sommes au bout du tableau.
+
+
+ce qui va donner : 
+
+![capture9](https://github.com/YasserSeryas/Linux/blob/main/Powershell%20capture/Capture9.PNG)
+
