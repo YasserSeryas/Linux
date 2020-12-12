@@ -33,7 +33,10 @@ Pour pouvoir trier par module (source) on tape la commande **get-command -module
 
 Windows PowerShell Integrated Scripting Environment (ISE) est une application hôte pour Windows PowerShell. Dans ISE, vous pouvez exécuter des commandes et écrire, tester et déboguer des scripts dans une seule interface utilisateur graphique Windows. ISE fournit l’édition multiligne, la saisie semi-automatique par tabulation, la coloration syntaxique, l’exécution sélective, l’aide contextuelle et la prise en charge pour les langues s’écrivant de droite à gauche. Les éléments de menu et les raccourcis clavier sont mappés une grande partie des tâches accessibles à partir de la console Windows PowerShell. Par exemple, lorsque vous déboguez un script dans ISE, vous pouvez cliquer avec le bouton droit sur une ligne de code dans le panneau de modification pour définir un point d’arrêt.
 
+[Source](https://docs.microsoft.com/fr-fr/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise?view=powershell-7.1)
+
 On va l'utiliser dans les travaux pratiques qui vont suivre.
+
 
 ## Travaux pratiques
 Dans ce premier TP on va créer un script qui doit permettre de créer des utilisateurs - de modifier des utilisateurs - de supprimer des utilisateurs - de voir tous les utilisateurs - de faire une recherche sur l'existence d'un utilisateur en particulier.
