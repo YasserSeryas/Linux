@@ -50,6 +50,8 @@ Voici donc un exemple de script ecrit sous Powershell ISE
 ![capture5](https://github.com/YasserSeryas/Linux/blob/main/Powershell%20capture/Capture5.PNG)
 
 
+[Précédent](https://github.com/YasserSeryas/Linux/blob/main/PowerShell1.md)
 
+[Suivant](https://github.com/YasserSeryas/Linux/blob/main/Condition.md)
 
 
