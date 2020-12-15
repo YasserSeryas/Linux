@@ -52,6 +52,8 @@ Voici donc un exemple de script ecrit sous Powershell ISE
 
 [Précédent](https://github.com/YasserSeryas/Linux/blob/main/PowerShell1.md)
 
+[Sommaire](https://github.com/YasserSeryas/Linux)
+
 [Suivant](https://github.com/YasserSeryas/Linux/blob/main/Condition.md)
 
 
