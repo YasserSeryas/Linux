@@ -45,6 +45,7 @@ default { code à exécuter si test est égal à aucune des autres valeurs }
 }
 
 ```
+[Sommaire](https://github.com/YasserSeryas/Linux)
 
 [Précédent](https://github.com/YasserSeryas/Linux/blob/main/LigneDeCommande.md)
 
