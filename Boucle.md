@@ -109,4 +109,6 @@ ce qui va donner :
 
 ![capture9](https://github.com/YasserSeryas/Linux/blob/main/Powershell%20capture/Capture9.PNG)
 
+[Précédent](https://github.com/YasserSeryas/Linux/blob/main/Condition.md)
+
 ### Source ItConnect
