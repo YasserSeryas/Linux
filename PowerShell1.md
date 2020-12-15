@@ -8,3 +8,7 @@ Contrairement à la plupart des interpréteurs de commandes qui acceptent et ret
  et accepte et retourne des objets .NET Framework. Ce changement fondamental apporte de nouveaux outils et méthodes pour l’automatisation.
  
  ## Source [Docs Microsoft](https://docs.microsoft.com/fr-fr/powershell/scripting/overview?view=powershell-7.1)
+
+[Précédent](https://github.com/YasserSeryas/Linux/blob/main/Histoire.md)
+
+[Suivant](https://github.com/YasserSeryas/Linux/blob/main/LigneDeCommande.md)
