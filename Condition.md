@@ -46,4 +46,7 @@ default { code à exécuter si test est égal à aucune des autres valeurs }
 
 ```
 
+[Précédent](https://github.com/YasserSeryas/Linux/blob/main/LigneDeCommande.md)
+
+[Suivant](https://github.com/YasserSeryas/Linux/blob/main/Boucle.md)
 ## Source IT Connect
