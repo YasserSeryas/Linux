@@ -21,3 +21,5 @@ Windows Powershell est le successeur des interfaces en ligne de commandes DOS/Wi
 * **Windows PowerShell 5.0** sorti en 2016  
 
 * **Windows PowerShell 5.1** esnuite directement intégré sur Windows 10 sorti en 2016 
+
+[Suivant](https://github.com/YasserSeryas/Linux/blob/main/PowerShell1.md)
